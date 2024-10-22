@@ -15,7 +15,6 @@ Este projeto é uma landing page pessoal desenvolvida com React e Tailwind CSS, 
 
 ## Como Executar o Projeto
 
-1. **Clone o repositório**:
 
-   ```bash
-   git clone <https://github.com/FillipeF5/FillipeF5.>
+   [Clique aqui para acessar minha página](https://github.com/FillipeF5/FillipeF5.)
+
