@@ -32,7 +32,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@media print {
+  header {
+    background: none !important;
+    /* Remover gradiente ou fundo no header */
+    color: black !important;
+    /* Garante que o texto fique visível */
+  }
+  header p { display: none }
+
+  h1,
+  h2 {
+    color: black !important;
+    /* Garante que o texto do título seja visível */
+  }
+
+  /* Se o texto estiver sendo "clipado" (cortado), garanta que ele esteja visível */
+  .bg-clip-text {
+    background: none !important;
+    color: black !important;
+    /* Garante que o texto tenha uma cor legível */
+  }
+
+  /* Ajuste o espaçamento para o título */
+  h1 {
+    font-size: 24px;
+    font-style: italic !important;
+  }
+
+  .certificados {
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .certificados>div {
+    margin-bottom: 16px !important;
+    padding: 0 !important;
+  }
+
+
 }
